@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+<!--
+	ZeroFour by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Left Sidebar - ZeroFour by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header Wrapper -->
+				<div id="header-wrapper">
+					<div class="container">
+
+						<!-- Header -->
+							<header id="header">
+								<div class="inner">
+
+									<!-- Logo -->
+										<h1><a href="index.html" id="logo">Projects</a></h1>
+
+									<!-- Nav -->
+										<nav id="nav">
+											<ul>
+												<li class="current_page_item"><a href="index.html">Home</a></li>
+												<!--<li>
+													<a href="#">Dropdown</a>
+													<ul>
+														<li><a href="#">Lorem ipsum dolor</a></li>
+														<li><a href="#">Magna phasellus</a></li>
+														<li>
+															<a href="#">Phasellus consequat</a>
+															<ul>
+																<li><a href="#">Lorem ipsum dolor</a></li>
+																<li><a href="#">Phasellus consequat</a></li>
+																<li><a href="#">Magna phasellus</a></li>
+																<li><a href="#">Etiam dolore nisl</a></li>
+															</ul>
+														</li>
+														<li><a href="#">Veroeros feugiat</a></li>
+													</ul>
+												</li> -->
+												<li><a href="project1.html">Project 1</a></li>
+												<li><a href="project2.html">Project 2</a></li>
+												<li><a href="project3.html">Project 3</a></li>
+												<li><a href="project4.html">Project 4</a></li>
+												<li><a href="profile.html">About Me</a></li>
+											</ul>
+										</nav>
+
+								</div>
+							</header>
+
+					</div>
+				</div>
+
+			<!-- Main Wrapper -->
+				<div id="main-wrapper">
+					<div class="wrapper style2">
+						<div class="inner">
+							<div class="container">
+								<div class="row">
+									<div class="col-4 col-12-medium">
+										<div id="sidebar">
+
+											<!-- Sidebar -->
+
+												<section>
+													<header class="major">
+														<h2>Skills Applied</h2>
+													</header>
+													<p>System Development and Verification</p>
+													<p>RISC-V Computer Architecture and Design</p>
+													<p>RTL Design with Vivado</p>
+													<p>Programmed in SystemVerilog and Assembly</p>
+													<footer>
+														<!--<a href="#" class="button icon solid fa-info-circle">Find out more</a>-->
+													</footer>
+												</section>
+
+												<section>
+													<header class="major">
+														<h2>Documentation</h2>
+													</header>
+													<ul class="style2">
+														<li><a href="https://github.com/ZAXBIE/CPE233.git">View code here!</a></li>
+													</ul>
+													<footer>
+														<!--<a href="#" class="button icon solid fa-arrow-circle-right">Do Something</a>-->
+													</footer>
+												</section>
+
+										</div>
+									</div>
+									<div class="col-8 col-12-medium imp-medium">
+										<div id="content">
+
+											<!-- Content -->
+
+												<article>
+													<header class="major">
+														<h2>FPGA Arcade</h2>
+														<p>Description</p>
+													</header>
+
+													<!--<span class="image featured"><img src="images/pic08.jpg" alt="" /></span>-->
+
+													<p>The project is based on minigames implemented with a menu selection system using
+													the switches and LEDs on the BASYS 3 board. The left button selects the minigames. 
+													Currently, the menu comprises two mini-games. One of them is “flick the fastest” 
+													using the switches. This is a PvP game. The second game is “whack a mole” where 
+													the player must flick the switch above which the LED glows. Each game has a set 
+													high score to achieve. After a player reaches a high score, the game ends and 
+													goes back to its menu selection state.</p>
+
+													<h3>How It Works</h3>
+													<p>A RISC-V architecture is used to implement the “computer” on the Basys 3 board.
+												    SystemVerilog in the Vivado design suite is used to write the various parts 
+													including the ALU, register file, and program counter. </p>
+
+													<span class="image featured"><img src="images/otter fsm.png" alt="" /></span>
+
+													<p>Above is an example module from the RISC-V computer, the FSM.</p>
+
+													<p>Using MMIO, the LEDS, buttons, and switches are accesssed in the program.
+													Generally, the switch values are checked and the LED's display an output.
+													An interrupt is triggered when a button is pressed, and the label executed depends on
+													which the value of a register. The value corresponds to a lit LED (1 of 16).
+													The system is designed as such so that the menu is running in a 
+													constant loop until the user wants to play a game. The use of labels helps
+													future users add to the library of minigames in an organized manner.
+													</p>
+												</article>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			<!-- Footer Wrapper -->
+			<div id="footer-wrapper">
+				<footer id="footer" class="container">
+					<div class="row">
+						<!--<div class="col-3 col-6-medium col-12-small">
+
+							 Links 
+								<section>
+									<h2>Filler Links</h2>
+									<ul class="divided">
+										<li><a href="#">Quam turpis feugiat dolor</a></li>
+										<li><a href="#">Amet ornare in hendrerit </a></li>
+										<li><a href="#">Semper mod quisturpis nisi</a></li>
+										<li><a href="#">Consequat etiam phasellus</a></li>
+										<li><a href="#">Amet turpis, feugiat et</a></li>
+										<li><a href="#">Ornare hendrerit lectus</a></li>
+										<li><a href="#">Semper mod quis et dolore</a></li>
+										<li><a href="#">Amet ornare in hendrerit</a></li>
+										<li><a href="#">Consequat lorem phasellus</a></li>
+										<li><a href="#">Amet turpis, feugiat amet</a></li>
+										<li><a href="#">Semper mod quisturpis</a></li>
+									</ul>
+								</section>
+
+						</div>
+						<div class="col-3 col-6-medium col-12-small">
+
+							 Links 
+								<section>
+									<h2>More Filler</h2>
+									<ul class="divided">
+										<li><a href="#">Quam turpis feugiat dolor</a></li>
+										<li><a href="#">Amet ornare in in lectus</a></li>
+										<li><a href="#">Semper mod sed tempus nisi</a></li>
+										<li><a href="#">Consequat etiam phasellus</a></li>
+									</ul>
+								</section>
+
+							 Links 
+								<section>
+									<h2>Even More Filler</h2>
+									<ul class="divided">
+										<li><a href="#">Quam turpis feugiat dolor</a></li>
+										<li><a href="#">Amet ornare hendrerit lectus</a></li>
+										<li><a href="#">Semper quisturpis nisi</a></li>
+										<li><a href="#">Consequat lorem phasellus</a></li>
+									</ul>
+								</section>
+
+						</div> -->
+						<div class="col-6 col-12-medium imp-medium">
+
+							<!-- About -->
+								<section>
+									<h2><strong>ZeroFour</strong> by HTML5 UP</h2>
+									<p>Hi! This is <strong>ZeroFour</strong>, a free, fully responsive HTML5 site
+									template by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>.
+									It's <a href="http://html5up.net/license/">Creative Commons Attribution</a>
+									licensed so use it for any personal or commercial project (just credit us
+									for the design!).</p>
+									<a href="#" class="button alt icon solid fa-arrow-circle-right">Learn More</a>
+								</section>
+
+							<!-- Contact -->
+								<section>
+									<h2>Get in touch</h2>
+									<div>
+										<div class="row">
+											<div class="col-6 col-12-small">
+												<dl class="contact">
+													<dt>LinkedIn</dt>
+													<dd><a href="https://www.linkedin.com/in/drake-small-6a7561295/">www.linkedin.com/in/drake-small-6a7561295</a></dd>
+													<dt>Email</dt>
+													<dd><a href="#">dprime999@comcast.net</a></dd>
+												</dl>
+											</div>
+										</div>
+									</div>
+								</section>
+
+						</div>
+						<div class="col-12">
+							<div id="copyright">
+								<ul class="menu">
+									<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+
+	</div>
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+</body>
+</html>
